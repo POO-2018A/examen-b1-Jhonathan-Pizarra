@@ -29,7 +29,7 @@ public class Examen1 {
         
         switch(opcion){
             case 1:
-                if(contador == 2){
+                if(contador == 10){
                     System.out.println("La biblioteca está llena.");
                     break;
                 }else{

@@ -10,8 +10,8 @@ public class Examen1 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
-        Libro[] libros = new Libro[1]; //Deben ser hasta 10, y la biblioteca se llena
-        Autor[] autores = new Autor[2];
+        Libro[] libros = new Libro[10]; //Deben ser hasta 10, y la biblioteca se llena
+        Autor[] autores = new Autor[10];
         
         int contador = Libro.contador;
         boolean favorito = false;
